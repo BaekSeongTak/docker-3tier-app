@@ -1,0 +1,10 @@
+CREATE TABLE board (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    event VARCHAR(10) NOT NULL,
+    consent VARCHAR(10) NOT NULL
+);
+

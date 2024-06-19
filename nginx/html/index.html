@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Board</title>
+</head>
+<body>
+    <h1>게시판</h1>
+    <form action="/api/board" method="post">
+        <label for="username">이름:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="phone">번호:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="email">이메일:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="gender">성별:</label><br>
+        <input type="text" id="gender" name="gender"><br>
+        <label for="event">이벤트 참여 여부:</label><br>
+        <input type="text" id="event" name="event"><br>
+        <label for="consent">개인정보 수집 동의:</label><br>
+        <input type="text" id="consent" name="consent"><br><br>
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>
+
